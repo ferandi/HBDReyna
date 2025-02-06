@@ -13,13 +13,13 @@ a{
 }
 .balloon {
   display:inline-block;
-  width:120px;
-  height:145px;
+  width:95px;
+  height:120px;
   background:hsl(281, 51%, 58%);
   border-radius:80%;
   position:static;
   box-shadow:inset -10px -10px 0 rgba(0,0,0,0.07);
-  margin:20px 30px;
+  margin:0px 30px;
   transition:transform 0.5s ease;
   z-index:10;
   animation:balloons 4s ease-in-out infinite;
@@ -38,7 +38,7 @@ a{
 
 .balloon:before {
   content:"▲";
-  font-size:20px;
+  font-size:10px;
   color:hsl(281, 31%, 28%);
   display:block;
   text-align:center;
@@ -48,7 +48,8 @@ a{
   z-index:-100;
 }
 .balloon:after {
-  display:inline-block; top:153px;
+   display:inline-block; 
+   top:125px;
    position:absolute;
    height:200px;
    width:1px;
@@ -80,6 +81,9 @@ a{
      width: 10px;
    }
 
+   .sylvi{
+    margin-bottom: 2%;
+   }
 /*POPUP*/
 .popup{
   background-color: #fac9dc;
