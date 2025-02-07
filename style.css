@@ -4,8 +4,8 @@ body { background:white; text-align:center; font-family: "Codigra"; margin: 0}
     font-family: "Codigra";
     src: url("scr/font/Codigra.ttf");
 }
-.content{
-  margin: 10%;
+.m{
+ margin: 10%;
 }
 a{
   color: #551a8b;
@@ -23,8 +23,8 @@ a{
 }
 
 .size{
-  width: 50%;
-  height: 90%;
+  width: 80%;
+  height: 85%;
   align-items: center;
   overflow:hidden;
 
@@ -156,6 +156,7 @@ a{
 .foot p{
   color: white;
   animation: move 2s ease-in-out 1;
+  padding: 2%;
 }
 
 @keyframes move {
