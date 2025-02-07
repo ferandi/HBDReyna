@@ -19,7 +19,6 @@ a{
   display: flex;
   justify-content: center;
   overflow:hidden;
-  height: 100vh;
 }
 
 .size{
@@ -171,6 +170,6 @@ a{
 
 @media screen and (max-width: 480px) {
   .sylvi {
-    margin-bottom: 100%;
+    margin-bottom: 80%;
   }
 }
