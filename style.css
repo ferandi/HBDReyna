@@ -1,16 +1,35 @@
-body { background:#ead8f7; text-align:center; font-family: "Codigra"; margin: 0}
+body { background:white; text-align:center; font-family: "Codigra"; margin: 0}
 
 @font-face {
     font-family: "Codigra";
     src: url("scr/font/Codigra.ttf");
 }
 .content{
-  margin: 20%;
+  margin: 10%;
 }
 a{
   color: #551a8b;
   text-decoration: none;
 }
+.bg-purple{
+  border: double white 2rem;
+  background-color: #ead8f7;
+}
+.father{
+  display: flex;
+  justify-content: center;
+  overflow:hidden;
+  height: 100vh;
+}
+
+.size{
+  width: 50%;
+  height: 90%;
+  align-items: center;
+  overflow:hidden;
+
+}
+
 .balloon {
   display:inline-block;
   width:95px;
@@ -32,7 +51,6 @@ a{
 }
 
 .config{
-    position: fixed;
     width: 100%;
 }
 
@@ -82,8 +100,9 @@ a{
    }
 
    .sylvi{
-    margin-bottom: 2%;
-   }
+    position: relative;
+    margin-bottom: 35%;
+     }
 /*POPUP*/
 .popup{
   background-color: #fac9dc;
@@ -128,10 +147,10 @@ a{
 .foot{
   overflow-x: hidden;
   background-color: #a5e1e9;
+  position: relative;
   height: auto;
   width: 100%;
   bottom: 0;
-  position: absolute;
 }
 
 .foot p{
@@ -146,5 +165,11 @@ a{
   
   to{
     transform: translateX(400px);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .sylvi {
+    margin-bottom: 100%;
   }
 }
